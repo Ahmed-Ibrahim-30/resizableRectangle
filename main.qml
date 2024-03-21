@@ -8,9 +8,11 @@ Window {
     title: qsTr("Resizable rectangle")
     Rectangle{
         id:rect
-        anchors.centerIn: parent
+        //anchors.centerIn: parent
         width:200
         height:100
+        x:200
+        y:100
         color: "red"
         Rectangle{
             anchors.right: parent.right
